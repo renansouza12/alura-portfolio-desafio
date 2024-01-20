@@ -1,0 +1,13 @@
+@use 'libray';
+@use 'header';
+@use 'title';
+@use 'introduction';
+@use 'about';
+#app{
+    height: 200vh;
+    background-color: var(--anzac);
+}
+.about_container{
+    height: 100%;
+    background-color: var(--purple);
+}

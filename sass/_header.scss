@@ -1,0 +1,10 @@
+header{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 1.5rem;
+    color: var(--White);
+    z-index: 100;
+}

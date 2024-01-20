@@ -1,0 +1,51 @@
+:root {
+    --anzac: #DEA450;
+    --White: #FFFFFF;
+    --persian: #6A1D2F;
+    --purple:#42354c;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Black);
+    font-family: "Laila", serif;
+}
+
+h1 {
+    color: var(--White);
+    font-weight: 300;
+    font-size: 4vw;
+}
+
+h2 {
+    color: var(--White);
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+p {
+    color: var(--anzac);
+}
+
+strong {
+    color: var(--persian);
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: var(--White);
+}
+i{
+    color: var(--White);
+}
