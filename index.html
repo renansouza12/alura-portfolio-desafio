@@ -14,12 +14,15 @@
 
     <div id="app">
         <header>
-            <a href="#app">Home</a>
-            <h3>Renan SZA</h3>
-            <a href="about.html">About</a>
+            <nav>
+                <a href="#intro">About</a>
+                <a href="#title"><h3>Renan SZA</h3></a>
+                <a href="curriculo.html">Currículo</a>
+            </nav>
+          
         </header>
 
-        <div class="title">
+        <div id="title" class="title">
             <h1>Eleve seu negócio digital a outro nível <strong>com um Front-end de qualidade!</strong> </h1>
 
             <div class="scroll_warning">
@@ -28,18 +31,30 @@
             </div>
 
         </div>
-        <section class="introduction">
-            <div class="image_intro">
-                <img src="https://i.pinimg.com/originals/b7/3b/ae/b73bae95bc876c93d10803bb38a2f936.gif"
-                    alt="um gif de uma imagem">
-            </div>
+        <section id="intro" class="introduction">
+
+
+            <img class="img_intro" src="https://i.pinimg.com/originals/99/cd/09/99cd0925c516b5d0a740dffd03c3e0df.gif" alt="">
+
+            <h2>About me</h2>
+
             <p>Olá! Sou Renan Souza, desenvolvedor Front-end com especialidade em HTML ,CSS, JavaScript. Ajudo pequenos
                 negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
 
+            <div class="skills_container">
+                <h3>Habilidades</h3>
+
+                <div class="skills">
+                    <p>html css JavaScript</p>
+                </div>
+            </div>
+
             <div class="next_page">
-                <a href="about.html">Next Page<i class="ri-arrow-right-line"></i></a></h2>
+                <a href="curriculo.html">Next Page<i class="ri-arrow-right-line"></i></a></h2>
             </div>
         </section>
+
+      
     </div>
 
     <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>

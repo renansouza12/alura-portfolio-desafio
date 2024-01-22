@@ -6,34 +6,100 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
 
-    .image_intro{
-        height: 500px;
-        width: 600px;
+    .img_intro{
+        height: 60vh;
+        width: 60vw;
+        object-fit: cover;
 
-        img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
     }
-    p{
-        width: 40%;
+
+    h2{
+        position: absolute;
+        font-size: 40px;
+        font-weight: 100;
+        top: 9%;
+        left: 20%;
+    }
+    
+    p{   
+        position: absolute;
+        right: 15%;
+        top: 11%;
+        width: 20%;
         text-align: justify;
+        color: var(--White);
     }
 
-    .next_page{
-        display: flex;
-        align-items: center;
-        gap: 3rem;
-        a{
-            font-size: 15px;
+    .skills_container{
+        h3{
+            transform: rotate(-90deg);
+            position: absolute;
+            color: var(--anzac);
+            bottom: 20%;
+            left: 10%;
         }
+
+        .skills{
+            position: absolute;
+            bottom: 20%;
+            left: 20%;
+            p{
+                color: var(--White);
+                
+                text-transform: uppercase;
+                letter-spacing: 2px;
+    
+            }
+        }
+      
+    }
+
+}
+
+.next_page{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    a{
+        font-size: 15px;
+    }
+}
+@media (max-width:768px) {
+    .introduction{
+        .skills_container{
+            h3{
+                bottom: 30%;
+                left: 0%;
+            }
+            p{
+                top: 50%;
+                right: 2%;
+                width: 40%;
+            }
+        }
+    
+    }
+}
+
+@media (max-width:375px) {
+    .introduction{
+        .skills_container{
+            h3{
+                bottom: 13%;
+                left: -1%;
+            }
+        }
+        p{
+            width: 91%;
+            top: 50%;
+            right: 3%;
+        }
+     
     }
 }
