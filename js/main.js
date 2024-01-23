@@ -36,6 +36,31 @@ gsap.from(".image", {
   }
 })
 
+gsap.from(".cv_title", {
+  opacity: 0,
+  y: 300,
+  scrollTrigger: {
+    trigger: ".cv_title",
+    start: "top center",
+    end: "center center",
+    scrub: 1,
+
+  }
+})
+gsap.from(".cv_content", {
+  opacity:0,
+  stagger:0.4,
+  scrollTrigger: {
+    trigger: ".cv_content",
+    start: "top center",
+    end: "bottom center",
+    scrub: 1,
+
+  }
+})
+
+
+
 const text = new SplitType('#target');
 
 
