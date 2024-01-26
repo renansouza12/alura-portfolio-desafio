@@ -3,7 +3,7 @@
 Um simples portfolio com HTML CSS.
 ## Screenshots
 
-![App Screenshot](https://i.ibb.co/j36NngT/Captura-de-tela-2024-01-25-220656.png)
+![App Screenshot](https://i.ibb.co/F4xvW8Q/Captura-de-tela-2024-01-26-155330.png)
 
 
 ![App Screenshot](https://i.ibb.co/GQsr88x/Captura-de-tela-2024-01-25-221219.png)
