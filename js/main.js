@@ -1,5 +1,14 @@
 gsap.registerPlugin(ScrollTrigger);
 
+gsap.from(".introduction",{
+  y:300,
+  scrollTrigger:{
+    trigger:".introduction",
+    start:"top center",
+    end:"bottom center",
+    scrub:1,
+  }
+})
 
 gsap.to(".introduction",{
   clipPath:"circle(80%)",
