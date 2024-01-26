@@ -1,6 +1,6 @@
 
 # Desafio Alura Portfolio
-Um simples portfolio com HTML CSS.
+Um simples portfolio com HTML CSS. Desafio proposto pela @Alura
 ## Screenshots
 
 ![App Screenshot](https://i.ibb.co/F4xvW8Q/Captura-de-tela-2024-01-26-155330.png)
